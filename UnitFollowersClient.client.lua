@@ -1,9 +1,10 @@
 -- Connected Discord-GitHub
+-- Both my Discord and Roblox Usernames are Ronogas
 -- StarterPlayerScripts/UnitFollowersClient.client.lua
 -- Client-side unit follower system for Roblox.
--- This script visually spawns equipped units around the local player, keeps them non-collidable,
--- follows terrain using raycasts, plays movement animations, and moves units into attack positions
--- when the server sends a target enemy through RemoteEvents.
+-- This script visually spawns equipped units around the local player, keeps them non-collidable
+-- follows terrain using raycasts plays movement animations and moves units into attack positions
+-- when the server sends a target enemy through RemoteEvents
 
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
